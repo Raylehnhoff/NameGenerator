@@ -26,7 +26,7 @@
             var Suffixes = $("#Suffixes").val().split('\n');
             $.map(Prefixes, function (p) {
                 $.map(Suffixes, function (s) {
-                    x.push(p + " " + s);
+                    x.push(p + s);
                 });
             });
             $("#Output").val(x.join('\n'));
